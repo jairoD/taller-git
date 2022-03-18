@@ -9,37 +9,39 @@
     <script src="main.js"></script>
   </head>
   <body>
-    <div class="header">
-      <h1 id="header-title">
-        Taller clase especializacion, aplicacion calendario
-      </h1>
+    <h1 class="title">Workshop 1 TEC EMER</h1>
+    <div class="all-tasks">
+      <h2 class="task-list-title">My Lists</h2>
+      <ul class="task-list">
+        <li class="active-list">Jairo List</li>
+        <li>Luis List</li>
+        <li>Empty List</li>
+      </ul>
+      <form action="">
+        <input
+          type="text"
+          class="new lists"
+          placeholder="New List Name"
+          aria-label="New List Name"
+        />
+        <button class="btn list" aria-label="Create New List">+</button>
+      </form>
     </div>
-    <section class="notes-section">
-      <div class="section-title">
-        <h3>Notas Jairo</h3>
+    <div class="todo-list">
+      <div class="todo-header">
+        <h2 class="list-title">YouTube</h2>
+        <p class="task-count">3 Tasks Remaining</p>
       </div>
-      <div class="notes-wrapper">
-        <ul class="notes-list">
-          <li class="note">18/03/2022 - Entrega taller git - Jairo Díaz</li>
-          <li class="note">18/03/2022 - Clase Esp. - Jairo Díaz</li>
-          <li class="note">19/03/2022 - Clase Esp. - Jairo Díaz</li>
-        </ul>
+      <div class="todo-body">
+        <div class="tasks">
+          <div class="task">
+            <input type="checkbox" id="task-1" />
+            <label for="task-1">Task name</label>
+          </div>
+        </div>
+        <div class="new-task-creator"></div>
+        <div class="delete-task"></div>
       </div>
-    </section>
-    <section class="notes-section">
-      <div class="section-title">
-        <h3>Notas Luis</h3>
-      </div>
-      <div class="notes-wrapper">
-        <ul class="notes-list">
-          <li class="note">18/03/2022 - Entrega taller git - Luis Cañate</li>
-          <li class="note">18/03/2022 - Clase Virtual Esp. - Luis Cañate</li>
-          <li class="note">19/03/2022 - Clase Presencial Esp. - Luis Cañate</li>
-          <li class="note">
-            19/03/2022 - Llevar gata al veterinario - Luis Cañate
-          </li>
-        </ul>
-      </div>
-    </section>
+    </div>
   </body>
 </html>

@@ -20,10 +20,12 @@ body {
   background-color: var(--clr-primary);
   color: var(--clr-light);
   display: grid;
-  grid: "header header header header" auto "...... lists  active ......" auto/1fr minmax(
+  grid:
+    "header header header header" auto "...... lists  active ......" auto/1fr minmax(
       100px,
       300px
-    ) minmax(250px, 500px) 1fr;
+    )
+    minmax(250px, 500px) 1fr;
 }
 
 .title {
@@ -33,7 +35,7 @@ body {
   font-weight: 900;
   color: rgba(0, 0, 0, 0.1);
   letter-spacing: 2px;
-  margin: -0.3em 0 0.5em;
+  margin: -0.2em 0 0.5em;
 }
 
 .all-tasks {

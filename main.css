@@ -1,0 +1,30 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgba(149, 147, 151, 0.63);
+}
+
+.header {
+  text-align: center;
+  font-weight: 700;
+  font-size: x-large;
+  text-decoration: underline;
+}
+
+.header-title {
+  color: slategray;
+}
+
+.notes-section {
+}
+
+.notes-section .section-title {
+}
+
+.notes-wrapper {
+}
+
+.notes-wrapper .notes-list {
+}
+
+.notes-wrapper .notes-list .note {
+}
